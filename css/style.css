@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #252627;
+}
+
+header {
+    display: inline-flex;
+    color: white;
+    width: 100%;
+    margin-bottom: 100px;
+    border-bottom-style: solid;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    margin: 40px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+h1,h2,h3,h4,h5 {
+    color: white;
+}
+
+img.logo2 {
+    width: 120px;
+}
+
+.logo1 {
+    margin-left: 90px;
+}
+
+button.signin-button {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.section1 div {
+    width: 330px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.elden {
+    padding: 90px;
+    background-color: rgb(52 53 55);
+}
+
+.elden-img {
+    display: flex;
+    justify-content: space-around;
+}
+.elden-img div img{
+    width: inherit;
+}
+.top-stories {
+   padding: 90px;
+   padding-top: 0px;;
+   background-color: rgb(52 53 55);
+}
+
+.top-stories-img {
+    display: flex;
+    justify-content: space-around;
+}
+.top-stories-img div img{
+    width: inherit;
+}
+section.news button{
+    border-radius: 20px;
+    width: 70px;
+}
+.news{
+    padding: 90px;
+    padding-top: 0px;
+    
+}
+.news button{
+    margin: 20px;
+    padding: 10px;
+    background-color: #8a9399;
+    color: white;
+    text-align: center;
+    margin-right: 0px;
+}    
+.logo3{
+    padding: 90px;
+    padding-top: 40px
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.video{
+    padding: 90px;
+    border-bottom-style: solid;
+    color: white;
+    padding-top: 20px;
+}
